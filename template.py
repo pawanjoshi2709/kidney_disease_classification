@@ -23,6 +23,7 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
+    ".gitignore",
     "research/trials.ipynb",
     "templates/index.html"
 
