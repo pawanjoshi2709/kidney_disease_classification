@@ -1,0 +1,15 @@
+artifact_uri: file:///H:/ML%20PROJECT/Kidney_classification_deep_learning/mlruns/0/b6b40999b3e349a1bddd49ce4dda51df/artifacts
+end_time: 1703826263258
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b6b40999b3e349a1bddd49ce4dda51df
+run_name: fun-ape-862
+run_uuid: b6b40999b3e349a1bddd49ce4dda51df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703826198965
+status: 3
+tags: []
+user_id: PAWAN JOSHI

@@ -9,7 +9,7 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 import base64
-
+import shutil
 
 
 @ensure_annotations
@@ -135,3 +135,9 @@ def decodeImage(imgstring, fileName):
 def encodeImageIntoBase64(croppedImagePath):
     with open(croppedImagePath, "rb") as f:
         return base64.b64encode(f.read())
+
+def copy_file(source_path,destination_folder):
+        Path(destination_folder).mkdir(parents=True, exist_ok=True)
+        filename = os.path.basename(source_path)
+        destination_path = os.path.join(destination_folder, filename)
+        shutil.copy2(source_path, destination_path)
